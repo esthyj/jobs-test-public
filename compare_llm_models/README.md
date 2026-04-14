@@ -2,6 +2,21 @@
 
 자연어 질문 생성 같은 태스크에서 LLM 성능을 비교하는 벤치마크.
 
+## 파일 구조
+
+```
+compare_llm_models/
+├── README.md              # 모델 비교 결과 및 선정 근거 문서
+├── compare_models.py      # 여러 LLM을 호출해 질문 생성 결과를 비교하는 스크립트
+├── rate_limit/
+│   └── google_models.png  # Google 모델 rate limit 정보 캡처
+└── results/
+    ├── compare.jsonl      # 모델별 생성 결과 원본 - 5개 데이터 (JSON Lines)
+    └── compare.md         # 모델별 생성 결과 비교표 - 5개 데이터 (Markdown)
+```
+
+
+
 ## 비교 모델
 
 | 코드 키 | 모델명 | Provider | LMArena Elo | 전체 순위 | 입력 ($/M) | 출력 ($/M) |
