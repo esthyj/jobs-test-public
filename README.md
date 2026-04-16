@@ -4,8 +4,8 @@
 
 이 저장소의 중심 목적은 두 가지입니다.
 
-1. 직업 분류 전에 추가 질문이 필요한 케이스를 골라내고, 각 상황에 맞게 필요한 추가질의`ask_slots`를 제시합니다. (ask_slots)
-2. 고객이 자연어로 설명한 직업/상황을 보고 적절한 `job_code`를 맞히는 분류 성능을 평가합니다. (classify_now)
+1. **ask_slots**: 직업 분류 전에 추가 질문이 필요한 케이스를 골라내고, 각 상황에 맞게 필요한 추가질의`ask_slots`를 제시합니다. 
+2. **classify_now**: 고객이 자연어로 설명한 직업/상황을 보고 적절한 `job_code`를 맞히는 분류 성능을 평가합니다.
 
 결과물 아카이브이며, 실제 데이터셋 JSONL, 평가 로그 TXT, 모델 비교 메모가 `result/` 아래에 정리되어 있습니다.
 
@@ -100,24 +100,26 @@ job-test-public/
 
 ## 핵심 산출물 요약
 
+## 모델 비교 자료
+
+`result/compare_llm_models/README.md`에는 6개의 LLM을 기반으로 질문을 생성하고 품질을 확인해보았습니다. 
+
+- 비교 대상: `gpt-5.4`, `gpt-5-mini`, `sonnet-4.6`, `opus-4.6`, `gemini-3.0-flash`, `gemini-3.1-pro`
+- 결론 요약: 사람과 가장 유사한 품질을 보여주는 `sonnet-4.6`을 우선 선택했고, 일부 task에서는 `gemini-3.0-flash`도 병행하여 사용했습니다.
+
 ### 1. `result/ask_slots/`
 
 직업 분류 전에 추가 질문이 필요한 케이스를 골라내고, 각 상황에 맞게 필요한 추가질의 종류(slot)를 제시합니다. 
 slot을 잘 분류할 수 있는지 평가한 자료입니다. 
 
-- slot은 아래와 같습니다:
+- slot종류는 아래와 같습니다:
   - `transport_mode`
   - `multi_job`
   - `task_detail`
   - `military`
   - `role_mix`
   - `income/status`
-
-| 세트 | 데이터 파일 | 건수 | 모델/출처 | Recall@1 | overall slot accuracy | conditional slot accuracy |
-|---|---|---:|---|---:|---:|---:|
-| A | `A_ask_slots/questions.jsonl` | 132 | 본사 데이터 | 94.7% | 85.6% | 90.4% |
-| B-Claude | `B_ask_slots/claude/questions.jsonl` | 387 | `claude-sonnet-4-6` 생성 | 23.8% | 16.5% | 69.6% |
-| B-Gemini | `B_ask_slots/gemini/questions.jsonl` | 396 | `gemini-3.0-flash` 생성 | 18.4% | 14.6% | 79.5% |
+  
 
 #### A. `A_ask_slots/`
 
@@ -125,128 +127,84 @@ slot을 잘 분류할 수 있는지 평가한 자료입니다.
 - 데이터 건수: `questions.jsonl` 132건
 - 실험 결과 (`eval_results.txt`):
 
-| 지표 | 값 |
-|---|---|
-| Recall@1 | 94.7% |
-| overall slot accuracy | 85.6% |
-| conditional slot accuracy | 90.4% |
+| Recall@1 | overall slot accuracy | conditional slot accuracy |
+|---:|---:|---:|
+| 94.7% | 85.6% | `90.4%` |
+> conditional slot accuracy가 바로 job_code로 분류되지 않고 '재질의가 필요하다고 안내'된 task 중 실제로 slot을 정확하게 분류했는지에 대한 지표라서 가장 중요하게 생각됩니다. 
 
 
 #### B. `B_ask_slots/claude`, `B_ask_slots/gemini`
 
+- 본사 데이터 일부를 예시 (few-shot)로 주고 유사 데이터를 생성했습니다. 
 - 데이터 건수:
   - `B_ask_slots/claude/questions.jsonl` 387건
   - `B_ask_slots/gemini/questions.jsonl` 396건
 - 서로 다른 LLM (claude-sonnet-4-6, gemini-3.0-flash)으로 생성한 ask-slot 테스트 질문 세트와 평가 결과입니다.
 - Claude 실험 결과 (`eval_results.txt`):
 
-| 지표 | 값 |
-|---|---|
-| Recall@1 | 23.8% |
-| overall slot accuracy | 16.5% |
-| conditional slot accuracy | 69.6% |
+| Recall@1 | overall slot accuracy | conditional slot accuracy |
+|---:|---:|---:|
+| 23.8% | 16.5% | `69.6%` |
 
 - Gemini 실험 결과 (`eval_results.txt`):
 
-| 지표 | 값 |
-|---|---|
-| Recall@1 | 18.4% |
-| overall slot accuracy | 14.6% |
-| conditional slot accuracy | 79.5% |
+| Recall@1 | overall slot accuracy | conditional slot accuracy |
+|---:|---:|---:|
+| 18.4% | 14.6% | `79.5%` |
 
 
 ### 2. `result/classify_now/`
 
-직업 분류 챗봇 자체의 성능을 검증하는 데이터셋과 평가 결과입니다.
-
-각 세트의 의미는 다음과 같습니다.
+추가 재질의를 하기보다는 바로 직업코드로 분류되어, 정확한 직업코드로 분류할 수 있는지 평가한 자료입니다. 
 
 #### A. `A_job_classify_now/`
 
+- 실제 본사 데이터입니다. 
 - 데이터 건수: `questions.jsonl` 165건
-- 실제 상담/현업형 질문 데이터를 정답 라벨과 함께 정리한 평가셋입니다.
-- `A_job_classify_now/questions.jsonl`은 실제 상담형 질문에 정답 `truth_job_code`, `truth_job_name`까지 포함한 기준 평가셋입니다.
 - 실험 결과 (`eval_results_20260415_181654.txt`):
 
-| 지표 | 값 |
-|---|---|
-| Recall@1 | 65.45% |
-| Recall@3 | 92.73% |
-| Recall@5 | 95.76% |
-| Recall@10 | 98.18% |
-| MRR@3 | 0.7737 |
-| MRR@5 | 0.7804 |
-| MRR@10 | 0.7844 |
-- 예시:
+| Recall@1 | Recall@3 | Recall@5 | Recall@10 | MRR@3 | MRR@5 | MRR@10 |
+|---:|---:|---:|---:|---:|---:|---:|
+| 65.45% | 92.73% | 95.76% | 98.18% | 0.7737 | 0.7804 | 0.7844 |
 
-```json
-{"question": "남자인데 집에서 살림을 해. 그럼 직업은 뭘로 하지?", "truth_job_code": "B3200", "truth_job_name": "전업주부"}
-```
 
 #### B. `B_job_classify_now/`
 
+- 직업코드 설명을 예시로 주고, 각 직업코드마다 관련된 질의를 생성하게끔 했습니다. 
 - 데이터 건수: `questions.jsonl` 680건
-- 단일 직업을 비교적 명확하게 지칭하는 질문 데이터셋입니다.
-- 각 레코드는 `job_code`와 질문 한 쌍으로 구성됩니다.
 - 실험 결과 (`eval_results_20260416_104110.txt`):
 
-| 지표 | 값 |
-|---|---|
-| Recall@1 | 94.85% |
-| Recall@3 | 99.12% |
-| Recall@5 | 99.41% |
-| Recall@10 | 99.41% |
-| MRR@1 | 0.9485 |
-| MRR@3 | 0.9694 |
-| MRR@5 | 0.9701 |
-| MRR@10 | 0.9701 |
-- 예시:
+| Recall@1 | Recall@3 | Recall@5 | Recall@10 | MRR@1 | MRR@3 | MRR@5 | MRR@10 |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+| 94.85% | 99.12% | 99.41% | 99.41% | 0.9485 | 0.9694 | 0.9701 | 0.9701 |
 
-```json
-{"job_code": "13121", "question": "대학교나 대학원 같은 교육기관에서 총장이나 학장 직책으로 학교 전체 운영을 기획하고 교직원들을 지휘·조정하는 분, 직업이 뭔가요?"}
-```
-
-- `verify_results_*.txt`는 오분류로 보인 케이스를 별도 LLM으로 다시 확인한 검증 로그입니다.
 
 #### C. `C_job_classify_now/`
 
+- 직업코드 설명을 2개를 예시로 주고, 복수 직업을 가진 사람의 질의를 생성하게끔 했습니다. 
 - 데이터 건수: `questions.jsonl` 85건
-- 유사 직업군 또는 복합 역할을 한 문장에 담은 데이터셋입니다.
-- `job_code`가 문자열 하나일 수도 있고, 배열일 수도 있어 다중 라벨/후처리 결과가 함께 들어 있습니다.
+- `job_code`가 문자열 하나일 수도 있고 배열일 수도 있습니다. (2개의 직업 등급이 다른 경우 등급이 낮은 문자열 하나이며, 직업 등급이 같은 경우 배열에 직업코드를 모두 포함시켰습니다.)
 - 실험 결과 (`eval_results_20260414_152833.txt`):
 
-| 지표 | 값 |
-|---|---|
-| Recall@1 | 70.59% |
-| Recall@10 | 100.00% |
-| MRR@10 | 0.8529 |
-- 예시:
+| Recall@1 | Recall@10 | MRR@10 |
+|---:|---:|---:|
+| 70.59% | 100.00% | 0.8529 |
 
-```json
-{"job_code": ["11103", "11104"], "2_code": ["11103", "11104"], "question": "평소엔 사무실에서 예산이나 정책 기획 문서 작업하다가, 현장 나가서 건축이나 토목 시설 직접 점검·감독하는 일도 해요."}
-```
 
 #### D. `D_job_classify_now/`
 
-- 데이터 건수: `questions.jsonl` 495건
-- 실제 현업에서 자주 나오는 짧은 판정형 질문 모음으로 보입니다.
-- A/B/C보다 질문이 짧고, "어떻게 분류하나요?" 형태가 많습니다.
+- 본사 데이터 일부를 예시 (few-shot)로 주고 유사 데이터를 생성했습니다.
+- Ground Truth Job Code는 임의 RAG 기반으로 생성하여, 일부 부정확한 데이터가 있을 것으로 생각됩니다. 
+- 데이터 건수: `questions.jsonl` 495건.
 - 실험 결과 (`eval_results_20260416_092643.txt`):
 
-| 지표 | 값 |
-|---|---|
-| Recall@1 | 43.23% |
-| Recall@3 | 66.06% |
-| Recall@5 | 75.15% |
-| Recall@10 | 81.41% |
-| MRR@3 | 0.5350 |
-| MRR@5 | 0.5558 |
-| MRR@10 | 0.5650 |
-- 예시:
+| Recall@1 | Recall@3 | Recall@5 | Recall@10 | MRR@3 | MRR@5 | MRR@10 |
+|---:|---:|---:|---:|---:|---:|---:|
+| 43.23% | 66.06% | 75.15% | 81.41% | 0.5350 | 0.5558 | 0.5650 |
 
-```json
-{"question": "자영업자가 직접 배달까지 하는 경우 어떻게 분류하나요?", "job_code": "87394"}
-```
+verify_results~.txt를 참고하면 아래와 같아서, 전체 데이터셋 중 최종적으로 GT가 맞다고 판단한 건만 제외하면 final score는 (495-124)/495= 74.94% 입니다. 
+- GT가 맞다고 판단: 124건
+- Pred가 맞다고 판단: 157건
 
 ### 3. `result/similar_job_dictionary.json`
 
@@ -266,7 +224,7 @@ slot을 잘 분류할 수 있는지 평가한 자료입니다.
 
 ### `classify_now/*/eval_results_*.txt`
 
-직업 분류 성능 요약입니다. 파일마다 지표 이름이 약간 다르지만 의미는 같습니다.
+직업 분류 실험 요약입니다. 파일마다 지표 이름이 약간 다르지만 의미는 같습니다.
 
 예시:
 
@@ -280,13 +238,14 @@ MRR@5          : 0.9701
 ```
 
 - `Recall@1`: 1순위 예측이 정답인 비율
-- `Recall@3`, `Recall@5`, `Recall@10`: 정답이 상위 N개 후보 안에 포함된 비율
+- `Recall@N`: 정답이 상위 N개 후보 안에 포함된 비율
 - `MRR@N`: 정답 순위의 역수 평균. 1에 가까울수록 좋습니다.
 - 일부 파일에는 오분류 상세가 이어서 기록됩니다.
 
 ### `classify_now/*/verify_results_*.txt`
 
-오분류처럼 보인 케이스를 재판정한 결과입니다.
+오분류처럼 보인 케이스를 재검증하고자, LLM에게 GT와 Pred 중 어느 직업코드가 맞는 것 같은지 질의한 결과입니다. 
+- 사용 모델: gpt-5.4
 
 예시:
 
@@ -294,10 +253,10 @@ MRR@5          : 0.9701
 # 54 GT=25300(유치원 교사) Pred=24720(보육 교사) → GT
 ```
 
-- `GT`: 기존 정답 라벨
-- `Pred`: 분류기가 낸 예측값
-- `→ GT`: 기존 라벨이 맞다고 재판정
-- `→ Pred`: 예측값 쪽이 더 타당하다고 재판정
+- `GT`: LLM 생성 데이터
+- `Pred`: 직업급수서비스가 낸 예측값
+- `→ GT`: LLM 생성 데이터가 더 타당하다고 재판정
+- `→ Pred`: 직업급수서비스가 더 타당하다고 재판정
 
 ### `ask_slots/*/eval_results.txt`
 
@@ -316,11 +275,4 @@ slot accuracy | ask_followup: 113/125 = 0.904
 - `Recall@1`: 추가 질문이 필요한 케이스를 놓치지 않고 잡아낸 비율
 - `slot accuracy (overall)`: 전체 데이터 기준 슬롯 예측 정확도
 - `slot accuracy | ask_followup`: 추가 질문이 필요하다고 판단한 케이스 중 슬롯 종류까지 맞춘 비율
-- 하단 `per-task` 표에서 task별 성능을 따로 확인할 수 있습니다.
-
-## 모델 비교 자료
-
-`result/compare_llm_models/README.md`에는 6개의 LLM을 기반으로 질문을 생성하고 품질을 확인해보았습니다. 
-
-- 비교 대상: `gpt-5.4`, `gpt-5-mini`, `sonnet-4.6`, `opus-4.6`, `gemini-3.0-flash`, `gemini-3.1-pro`
-- 결론 요약: 사람과 가장 유사한 품질을 보여주는 `sonnet-4.6`을 우선 선택했고, 일부 task에서는 `gemini-3.0-flash`도 병행하여 사용했습니다.
+- `slot accuracy | ask_followup`을 가장 중요시하게 볼 평가지표로 잡았습니다. 
