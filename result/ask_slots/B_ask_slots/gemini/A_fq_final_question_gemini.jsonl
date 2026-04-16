@@ -1,0 +1,396 @@
+{"task": "transport_mode", "question": "신선식품 새벽 배송 알바를 매일 3시간씩 하는데 직업을 뭐라고 해야 하나요?"}
+{"task": "transport_mode", "question": "가구 매장에서 가구 조립도 하고 직접 배송차량도 운전하는데 어떤 걸로 선택하죠?"}
+{"task": "transport_mode", "question": "폐기물 수거 차량 운전하시는 분은 환경미화원인가요 아니면 운전직인가요?"}
+{"task": "transport_mode", "question": "꽃집 운영하면서 직접 배달도 가시는데 이륜차 운전 여부 체크해야 하나요?"}
+{"task": "transport_mode", "question": "현장직 관리자인데 덤프트럭을 현장 내에서만 운전하는 경우에도 화물차 운전자로 보나요?"}
+{"task": "transport_mode", "question": "골프장 카트 운전하며 경기 보조하시는 캐디분들 직업 분류는 어떻게 되나요?"}
+{"task": "transport_mode", "question": "퀵서비스 기사인데 오토바이 대신 승용차로 물건을 나르는 경우는요?"}
+{"task": "transport_mode", "question": "대형 마트 셔틀버스 운전하시는 분은 영업용 운전자로 분류하나요?"}
+{"task": "transport_mode", "question": "위험물 적재 차량인 유조차 운전기사님 직업 코드가 궁금합니다."}
+{"task": "transport_mode", "question": "대리운전 기사인데 전동 킥보드를 휴대해서 이동하는 경우 고지해야 하나요?"}
+{"task": "transport_mode", "question": "정수기 점검하러 다니면서 본인 차로 이동하는 코디 분들은 어떤 코드를 쓰나요?"}
+{"task": "transport_mode", "question": "레미콘 차량 운전자는 건설기계 운전자로 봐야 하나요?"}
+{"task": "transport_mode", "question": "고속도로 순찰차 운전 업무를 하시는 분의 직업 분류는요?"}
+{"task": "transport_mode", "question": "사다리차 장비 조종하시는 분은 화물차 운전자로 분류되나요?"}
+{"task": "transport_mode", "question": "장례식장에서 운구용 리무진 운전하시는 분 직업 코드는 무엇인가요?"}
+{"task": "transport_mode", "question": "야쿠르트 배달하시는 분들 전동 카트 타는데 이것도 운전직인가요?"}
+{"task": "transport_mode", "question": "도축장에서 고기를 냉동탑차로 식당에 납품하는 업종은 어떻게 되나요?"}
+{"task": "transport_mode", "question": "카캐리어 차량에 신차를 싣고 운반하는 기사님은 어떤 직종인가요?"}
+{"task": "transport_mode", "question": "공항에서 항공기 지상 조업용 특수 차량 운전하시는 분은요?"}
+{"task": "transport_mode", "question": "소방차 운전하는 소방관님은 일반 소방관인가요 운전직인가요?"}
+{"task": "transport_mode", "question": "캠핑카 렌트 업체에서 차량 탁송해 주시는 분은 어떤 직업인가요?"}
+{"task": "transport_mode", "question": "세탁소 사장님이 세탁물 수거하려고 0.5톤 트럭 운전하시는 경우는요?"}
+{"task": "transport_mode", "question": "건설 현장에서 콘크리트 펌프카 조종하시는 분 직업 분류 알려주세요."}
+{"task": "transport_mode", "question": "우편물 집배원분들 이륜차 타시는 경우 직업 분류가 어떻게 되나요?"}
+{"task": "transport_mode", "question": "요양원에서 어르신들 픽업하는 스타렉스 운전하는 요양보호사님은요?"}
+{"task": "transport_mode", "question": "호텔 발렛파킹 주차 요원은 운전직인가요 서비스직인가요?"}
+{"task": "transport_mode", "question": "무인 대여 자전거 관리하며 트럭으로 자전거 수거하시는 분은요?"}
+{"task": "transport_mode", "question": "이동식 도서관 버스 운전하며 도서 대출 관리하시는 분 직종은요?"}
+{"task": "transport_mode", "question": "묘목 판매업 하시는 분이 경운기나 트랙터 운전하는 경우도 고지하나요?"}
+{"task": "transport_mode", "question": "텍사스식 바비큐 푸드트럭 운영하며 직접 운전하시는 사장님은요?"}
+{"task": "transport_mode", "question": "주말에만 소형 화물차로 이삿짐 도와주는 알바를 하는데 직업은요?"}
+{"task": "transport_mode", "question": "병원 구급차 운전기사님은 영업용 차량 운전자로 분류되나요?"}
+{"task": "transport_mode", "question": "신문 배달하시는 분이 자차 승용차로 배달하는 경우 코드는요?"}
+{"task": "transport_mode", "question": "사설 견인차(렉카) 기사님인데 사고 현장 출동하시는 분 직업 분류는요?"}
+{"task": "transport_mode", "question": "전시장 전시 차량 운반하는 대형 트레일러 운전기사님은요?"}
+{"task": "transport_mode", "question": "학교 급식 자재 납품하면서 1톤 냉동탑차 운전하시는 분은요?"}
+{"task": "transport_mode", "question": "스키장에서 제설차 운전하거나 슬로프 정비차 타시는 분들 코드는요?"}
+{"task": "transport_mode", "question": "지게차를 창고 안에서만 타는데 이것도 운전직으로 넣어야 하나요?"}
+{"task": "transport_mode", "question": "자동차 경주 선수(레이서)의 직업 분류는 어떻게 되나요?"}
+{"task": "transport_mode", "question": "항만 내에서 컨테이너 옮기는 야드 트랙터 기사님은 어떤 직종인가요?"}
+{"task": "transport_mode", "question": "렌터카 업체에서 차고지로 차량 이동시키는 분들 직업은요?"}
+{"task": "transport_mode", "question": "방송국 취재 차량 운전하시는 분은 사무직인가요 운전직인가요?"}
+{"task": "transport_mode", "question": "산후조리원에서 산모들 집까지 모셔다드리는 셔틀 운전자는요?"}
+{"task": "transport_mode", "question": "분뇨 수거 및 정화조 청소 차량 운전하시는 분 직업 코드는요?"}
+{"task": "transport_mode", "question": "도로 공사 현장에서 노면 파쇄기나 롤러 운전하시는 분은요?"}
+{"task": "transport_mode", "question": "개인 택시 준비 중이라 임시로 법인 택시 하시는 분은요?"}
+{"task": "transport_mode", "question": "도시가스 점검원인데 이동할 때 오토바이 타면 위험직군인가요?"}
+{"task": "transport_mode", "question": "마트 배송 기사인데 개인 소유 화물차(번호판 흰색)로 일하면요?"}
+{"task": "transport_mode", "question": "전기차 충전소 관리하면서 수리 차량 운전하시는 분 코드는요?"}
+{"task": "transport_mode", "question": "양식장에서 물고기 운반하는 활어차 운전기사님은요?"}
+{"task": "transport_mode", "question": "백화점 VIP 발렛 서비스하시는 분들 직업 분류 알려주세요."}
+{"task": "transport_mode", "question": "인테리어 목수인데 자재 실으려고 본인 포터 운전하는 경우는요?"}
+{"task": "transport_mode", "question": "통학 버스 동승 보호자인데 가끔 운전 보조하는 경우도 있나요?"}
+{"task": "transport_mode", "question": "숲 해설가인데 산림청 차량으로 이동하시는 분 직업 분류는요?"}
+{"task": "transport_mode", "question": "자율주행 자동차 시험 운행 요원은 어떤 직업으로 분류하나요?"}
+{"task": "transport_mode", "question": "골동품 매매하시면서 대형 트럭 직접 몰고 다니시는 사장님은요?"}
+{"task": "transport_mode", "question": "군용 차량 정비하면서 시운전하시는 정비병이나 군무원은요?"}
+{"task": "transport_mode", "question": "사설 보안업체(출동직) 차량 운전하시는 분 직업은 무엇인가요?"}
+{"task": "transport_mode", "question": "선박 급유 차량 운전하시는 분의 직업 분류가 궁금합니다."}
+{"task": "transport_mode", "question": "조경 공사 하면서 소형 굴착기 직접 조종하는 사장님 코드는요?"}
+{"task": "transport_mode", "question": "공항 리무진 버스 기사님은 시외버스 기사로 분류하나요?"}
+{"task": "transport_mode", "question": "쿠팡이츠 배달을 자전거로만 하는데 이것도 고지 대상인가요?"}
+{"task": "transport_mode", "question": "도배사인데 사다리나 장비 때문에 직접 화물차 몰고 다녀요."}
+{"task": "transport_mode", "question": "현금 수송 차량 운전 및 보안 업무 보시는 분들 직업 코드는요?"}
+{"task": "transport_mode", "question": "동물병원 수의사인데 출장 진료 위해 특수 개조차 운전하시는 분은요?"}
+{"task": "transport_mode", "question": "농기계 수리 센터 사장님이 수리된 트랙터 시운전하시는 경우는요?"}
+{"task": "multi_job", "question": "사무직인데 퇴근 후 쿠팡 플렉스 배달 알바하면 직업을 뭘로 하나요?"}
+{"task": "multi_job", "question": "공무원이 주말에만 부모님 농사 도와드리는데 농업으로 바꿔야 할까요?"}
+{"task": "multi_job", "question": "전업주부가 블로그 공동구매로 수익이 나면 유통업자로 넣나요?"}
+{"task": "multi_job", "question": "요가 강사가 주말에만 등산 가이드 활동을 병행할 때 직업 코드는요?"}
+{"task": "multi_job", "question": "대기업 직원이 주말마다 목공예품을 제작해서 판매하는데 겸업인가요?"}
+{"task": "multi_job", "question": "대학생이 야간에 편의점 알바랑 택배 상하차를 같이 하면 급수가 어떻게 되나요?"}
+{"task": "multi_job", "question": "웹디자이너인데 가끔 프리랜서로 건물 외벽 도색 알바를 하면 위험직군인가요?"}
+{"task": "multi_job", "question": "유치원 교사가 겨울 방학 기간에만 스키 강사를 하는데 직업 변경해야 하나요?"}
+{"task": "multi_job", "question": "자영업자가 가게 마감 후 대리운전을 매일 하면 어떤 직업이 우선인가요?"}
+{"task": "multi_job", "question": "보험설계사가 주말에 라이더 배달을 병행할 때 고위험직으로 넣어야 하나요?"}
+{"task": "multi_job", "question": "일반 회사원인데 퇴근 후에만 전동 킥보드 수거 알바를 하고 있습니다."}
+{"task": "multi_job", "question": "농사지으면서 겨울철에만 제설 차량 운행을 하는 분은 직업이 뭔가요?"}
+{"task": "multi_job", "question": "대학원생인데 주말마다 결혼식장 주차 관리 요원으로 일합니다."}
+{"task": "multi_job", "question": "개인택시 기사님이 비번일 때 가구 조립 설치 보조를 하면요?"}
+{"task": "multi_job", "question": "작가가 생계형으로 주 3회 건설현장 일용직을 나가고 있습니다."}
+{"task": "multi_job", "question": "헬스 트레이너가 단기 알바로 이삿짐 운반을 도와주는 경우입니다."}
+{"task": "multi_job", "question": "사무직 여성이 퇴근 후 필라테스 강사를 병행하면 급수 변동이 있나요?"}
+{"task": "multi_job", "question": "식당 사장님이 직접 오토바이로 배달까지 다 하시면 식당 주인인가요?"}
+{"task": "multi_job", "question": "연극배우가 공연 없는 날에만 에어컨 설치 보조를 하고 있습니다."}
+{"task": "multi_job", "question": "자동차 정비사가 주말에는 캠핑장 관리인으로 근무하는데 직업 기준은요?"}
+{"task": "multi_job", "question": "주부가 가사도우미 일을 하면서 파트타임으로 요양보호사도 하고 있습니다."}
+{"task": "multi_job", "question": "은행원이 주말마다 개인 과수원에서 방제 작업을 하면 농부인가요?"}
+{"task": "multi_job", "question": "화물차 운전기사가 쉬는 날에 인력사무소 통해 잡부로 일합니다."}
+{"task": "multi_job", "question": "바리스타인데 가끔 출장 세차 서비스 부업을 같이 운영하고 있습니다."}
+{"task": "multi_job", "question": "공인중개사가 주말에 취미 겸 돈벌이로 숲 해설가를 하면요?"}
+{"task": "multi_job", "question": "미용사가 주 1회 방문 미용 봉사가 아닌 유료 출장을 다니고 있습니다."}
+{"task": "multi_job", "question": "유튜버가 수익 목적으로 배달 오토바이를 타는 콘텐츠를 찍으면요?"}
+{"task": "multi_job", "question": "은퇴하신 분이 아파트 경비원 일과 조경 관리를 같이 하십니다."}
+{"task": "multi_job", "question": "애견 미용사가 주말에만 유기견 구조 및 포획 활동 부업을 합니다."}
+{"task": "multi_job", "question": "프리랜서 통역사가 시즌에만 가이드 활동으로 장거리 운전을 합니다."}
+{"task": "multi_job", "question": "마케터가 부업으로 심야 새벽 배송을 하는데 급수가 3급인가요?"}
+{"task": "multi_job", "question": "조리사가 학교 급식실 근무 외에 주말 출장 뷔페 서빙을 나갑니다."}
+{"task": "multi_job", "question": "사무직 직원이 동호회 활동으로 시작해 유료 댄스 레슨을 합니다."}
+{"task": "multi_job", "question": "도서관 사서가 퇴근 후에 도보 배달 알바를 하는 경우입니다."}
+{"task": "multi_job", "question": "건축 설계사가 주말에만 현장 감리 보조로 직접 시공에 참여합니다."}
+{"task": "multi_job", "question": "약사가 주말에 산악 구조대 대원으로 활동하며 실비를 받습니다."}
+{"task": "multi_job", "question": "프로그래머가 퇴근 후 심야 식당에서 주방 보조를 하면 직업은요?"}
+{"task": "multi_job", "question": "플로리스트가 꽃 배달을 직접 트럭으로 운전하는 경우 직업 코드는?"}
+{"task": "multi_job", "question": "대학 휴학생이 군 입대 전까지 주유소 알바와 세차 알바를 병행합니다."}
+{"task": "multi_job", "question": "목사가 교회 관리 업무 외에 평일에 택배 기사로 일하고 있습니다."}
+{"task": "multi_job", "question": "주부가 부업으로 인형 눈 붙이기 같은 단순 가내수공업을 합니다."}
+{"task": "multi_job", "question": "사진작가가 평일엔 스튜디오 운영하고 주말엔 웨딩 스냅 출장을 갑니다."}
+{"task": "multi_job", "question": "전문직 종사자가 취미로 시작한 스킨스쿠버 강사로 수익이 발생합니다."}
+{"task": "multi_job", "question": "학원 강사가 학생들 안전을 위해 직접 학원 버스 운전을 병행합니다."}
+{"task": "multi_job", "question": "카페 사장님이 저녁에는 라이브 바에서 드럼 연주 알바를 합니다."}
+{"task": "multi_job", "question": "사회복지사가 방문 케어 시 본인 차량으로 환자 이동을 돕고 있습니다."}
+{"task": "multi_job", "question": "전업투자자가 수익이 일정치 않아 주말에 건설 일용직을 나갑니다."}
+{"task": "multi_job", "question": "물리치료사가 퇴근 후 스포츠 마사지 샵에서 파트타임으로 일합니다."}
+{"task": "task_detail", "question": "카페 알바생인데 가끔 배달도 가면 직업을 뭐라고 해야 할까요?"}
+{"task": "task_detail", "question": "필라테스 강사인데 센터 운영도 겸하고 있어요."}
+{"task": "task_detail", "question": "배달의민족 커넥트 도보 배달원 직업코드는?"}
+{"task": "task_detail", "question": "대리기사님인데 낮에는 노가다를 하시면 직업을 뭘로 하나요?"}
+{"task": "task_detail", "question": "쿠팡 플렉스 자차 배달원은 직업 분류가 어떻게 되나요?"}
+{"task": "task_detail", "question": "웹툰 작가 지망생인데 편의점 알바 중이면?"}
+{"task": "task_detail", "question": "유치원 버스 도우미 선생님 직업은?"}
+{"task": "task_detail", "question": "아파트 경비원이면서 가끔 분리수거도 도와주시면요?"}
+{"task": "task_detail", "question": "요양보호사가 어르신 댁으로 방문하시는 경우 직업은?"}
+{"task": "task_detail", "question": "펫시터로 돈을 벌고 있는데 직업 코드가 따로 있나요?"}
+{"task": "task_detail", "question": "중고물품 판매 대행하시는 분은 직업을 뭐로 하나요?"}
+{"task": "task_detail", "question": "대학생이 방학 때만 건설현장 알바를 해요."}
+{"task": "task_detail", "question": "네일아트 샵에서 일하는 직원은 직업이 뭔가요?"}
+{"task": "task_detail", "question": "골프장 캐디인데 프리랜서로 등록되어 있습니다."}
+{"task": "task_detail", "question": "헬스 트레이너인데 PT 수입만 있는 경우 직업은?"}
+{"task": "task_detail", "question": "어린이집 조리사 선생님 직업코드 알려주세요."}
+{"task": "task_detail", "question": "도서관에서 책 정리하는 단기 알바생은요?"}
+{"task": "task_detail", "question": "드론으로 농약을 살포하는 조종사는 직업이 뭔가요?"}
+{"task": "task_detail", "question": "쿠팡 물류센터에서 상하차 업무 하시는 분 직업은?"}
+{"task": "task_detail", "question": "보험 설계사인데 다른 일도 같이 하면 직업을 뭘로 하나요?"}
+{"task": "task_detail", "question": "아파트 전기 관리 기사님 직업 분류가 궁금해요."}
+{"task": "task_detail", "question": "인테리어 타일 시공하시는 분은 코드가 어떻게 되나요?"}
+{"task": "task_detail", "question": "백화점 주차 관리 요원은 직업을 뭐라고 적나요?"}
+{"task": "task_detail", "question": "주말에만 예식장에서 서빙 알바를 합니다."}
+{"task": "task_detail", "question": "문화재 발굴 현장에서 일하는 보조원은요?"}
+{"task": "task_detail", "question": "택배 상하차 일용직은 직업을 뭐라고 해야 하죠?"}
+{"task": "task_detail", "question": "산후조리원에서 아기 돌보시는 분 직업은?"}
+{"task": "task_detail", "question": "공사 현장에서 신호수 보시는 분 직업코드요."}
+{"task": "task_detail", "question": "피부관리실 원장님인데 직접 시술도 하십니다."}
+{"task": "task_detail", "question": "꽃집 운영하면서 가끔 꽃 배달도 직접 가요."}
+{"task": "task_detail", "question": "퀵서비스 기사님인데 오토바이 타시면 직업은?"}
+{"task": "task_detail", "question": "에어컨 설치 기사님 직업 분류 부탁드려요."}
+{"task": "task_detail", "question": "방문 학습지 선생님은 직업을 뭐라고 해야 하나요?"}
+{"task": "task_detail", "question": "마트에서 시식 코너 운영하시는 분은요?"}
+{"task": "task_detail", "question": "주택 관리소 경리 직원은 직업이 뭔가요?"}
+{"task": "task_detail", "question": "세차장에서 손세차 하시는 분 직업 코드요."}
+{"task": "task_detail", "question": "건물 외벽 유리창 청소하시는 분은요?"}
+{"task": "task_detail", "question": "지게차 운전하시는 분 직업 분류가 궁금합니다."}
+{"task": "task_detail", "question": "요리 유튜버인데 집에서 촬영만 하면 직업은?"}
+{"task": "task_detail", "question": "가사도우미로 일하시는 분 직업은 뭘로 넣나요?"}
+{"task": "task_detail", "question": "장례지도사 보조 업무 하시는 분은요?"}
+{"task": "task_detail", "question": "학교 보안관님 직업 코드가 어떻게 되나요?"}
+{"task": "task_detail", "question": "야간 편의점 아르바이트생 직업은?"}
+{"task": "task_detail", "question": "숲 해설가로 활동하시는 분 직업은요?"}
+{"task": "task_detail", "question": "결혼식 사회를 전문으로 보시는 분은?"}
+{"task": "task_detail", "question": "백화점 매장 판매원인데 매니저 직함이면요?"}
+{"task": "task_detail", "question": "신문 배달 하시는 분 직업 분류 알려주세요."}
+{"task": "task_detail", "question": "떡볶이 가게 운영하는 사장님 직업은요?"}
+{"task": "task_detail", "question": "고물상 운영하시는 분 직업 코드 궁금해요."}
+{"task": "task_detail", "question": "정수기 점검하러 다니시는 코디님은요?"}
+{"task": "task_detail", "question": "수영장 안전요원 직업은 뭐라고 하나요?"}
+{"task": "task_detail", "question": "타로 상담사로 수입이 있으시면 직업인가요?"}
+{"task": "task_detail", "question": "애견 미용사로 일하는 분 직업 코드요."}
+{"task": "task_detail", "question": "지하철 청소 노동자분들은 직업이 뭔가요?"}
+{"task": "task_detail", "question": "공장 식당에서 밥 해주시는 분은요?"}
+{"task": "task_detail", "question": "가구 배송 및 설치 기사님 직업은요?"}
+{"task": "task_detail", "question": "대학교 조교로 근무 중인데 직업 분류는?"}
+{"task": "task_detail", "question": "연극 배우인데 무대 설치도 직접 하시면요?"}
+{"task": "task_detail", "question": "보조출연자로 활동하시는 분 직업은?"}
+{"task": "task_detail", "question": "학원 셔틀버스 운전기사님 직업 코드요."}
+{"task": "task_detail", "question": "주유소에서 기름 넣는 알바생은요?"}
+{"task": "task_detail", "question": "전업주부인데 주식 전업 투자자면 직업이 뭔가요?"}
+{"task": "task_detail", "question": "산불 감시원으로 일하시는 분 직업은요?"}
+{"task": "task_detail", "question": "길거리 붕어빵 장사하시는 분 직업은요?"}
+{"task": "task_detail", "question": "동물병원 간호 보조 직원은요?"}
+{"task": "task_detail", "question": "골프 연습장 프런트 직원은 직업이 뭔가요?"}
+{"task": "task_detail", "question": "모델하우스 안내 도우미 직업 코드요."}
+{"task": "task_detail", "question": "방송국 자막 편집하시는 프리랜서는요?"}
+{"task": "task_detail", "question": "자동차 선팅 작업하시는 분 직업은?"}
+{"task": "task_detail", "question": "보일러 수리 기사님 직업 분류 궁금해요."}
+{"task": "task_detail", "question": "세탁소 운영하시는 사장님 직업 코드요."}
+{"task": "task_detail", "question": "스크린 골프장 관리 알바생은요?"}
+{"task": "task_detail", "question": "찜질방 카운터 보시는 분 직업은?"}
+{"task": "task_detail", "question": "노래방 운영하시는 사장님은요?"}
+{"task": "task_detail", "question": "목욕탕 세신사 분들 직업 코드 알려주세요."}
+{"task": "task_detail", "question": "지하철 택배 하시는 어르신 직업은?"}
+{"task": "task_detail", "question": "학교 급식실에서 배식하시는 분은요?"}
+{"task": "task_detail", "question": "폐기물 수집 운반 차량 운전기사님은?"}
+{"task": "task_detail", "question": "이동식 스낵카 운영하시는 분 직업은?"}
+{"task": "task_detail", "question": "PC방 야간 알바생 직업 코드요."}
+{"task": "task_detail", "question": "산후 관리사로 집으로 방문하시는 분은요?"}
+{"task": "task_detail", "question": "치과 기공소에서 일하시는 분 직업은?"}
+{"task": "task_detail", "question": "안경점에서 근무하는 안경사 직업은?"}
+{"task": "task_detail", "question": "보청기 센터 운영하시는 분 직업 코드요."}
+{"task": "task_detail", "question": "요양병원 간병인 직업 분류는 어떻게 되나요?"}
+{"task": "task_detail", "question": "농장에서 과일 수확하는 일용직은요?"}
+{"task": "task_detail", "question": "비닐하우스 농사 짓는 분 직업 코드요."}
+{"task": "task_detail", "question": "양계장 운영하시는 사장님 직업은?"}
+{"task": "task_detail", "question": "낚시터 관리하시는 분 직업 분류는?"}
+{"task": "task_detail", "question": "등산로 정비하시는 공공근로자분은요?"}
+{"task": "task_detail", "question": "도배사 보조로 일 배우는 중이면 직업은?"}
+{"task": "task_detail", "question": "사다리차 운전하시는 분 직업 코드요."}
+{"task": "task_detail", "question": "굴착기 기사님 직업 분류가 궁금해요."}
+{"task": "task_detail", "question": "대형마트 카트 정리하시는 분은요?"}
+{"task": "task_detail", "question": "주차 타워 관리 요원 직업은?"}
+{"task": "task_detail", "question": "발레파킹 하시는 분 직업 코드 알려주세요."}
+{"task": "task_detail", "question": "호텔 하우스키핑 하시는 분 직업은?"}
+{"task": "task_detail", "question": "면세점 판매직 사원 직업 코드요."}
+{"task": "task_detail", "question": "고속도로 톨게이트 수납원 직업은?"}
+{"task": "task_detail", "question": "공항 보안 검색 요원 직업 분류는?"}
+{"task": "task_detail", "question": "항공기 기내 청소하시는 분 직업은?"}
+{"task": "task_detail", "question": "선상 낚시배 운영하시는 선장님은요?"}
+{"task": "task_detail", "question": "양식장에서 일하시는 인부 직업 코드요."}
+{"task": "task_detail", "question": "염전에서 소금 만드시는 분 직업은?"}
+{"task": "task_detail", "question": "숲유치원 선생님 직업 분류 궁금해요."}
+{"task": "task_detail", "question": "방과 후 돌봄교실 선생님 직업은?"}
+{"task": "task_detail", "question": "아이돌봄 서비스 제공 인력 직업 코드요."}
+{"task": "task_detail", "question": "장애인 활동 지원사 직업 분류는?"}
+{"task": "task_detail", "question": "수어 통역사로 일하시는 분 직업은?"}
+{"task": "task_detail", "question": "심리 상담 센터 운영하시는 원장님은?"}
+{"task": "task_detail", "question": "미술 학원 차량 운전 선생님 직업은?"}
+{"task": "task_detail", "question": "태권도 사범님 직업 코드 알려주세요."}
+{"task": "task_detail", "question": "요가 스튜디오 강사님 직업은?"}
+{"task": "task_detail", "question": "스쿠버 다이빙 강사 직업 분류는?"}
+{"task": "task_detail", "question": "서핑 보드 대여점 운영하시는 분은?"}
+{"task": "task_detail", "question": "스키장 패트롤 대원 직업 코드요."}
+{"task": "task_detail", "question": "워터파크 라이프가드 직업은?"}
+{"task": "task_detail", "question": "놀이공원 기구 조작 요원 직업은?"}
+{"task": "task_detail", "question": "동물원 사육사 보조 업무 하시는 분은?"}
+{"task": "task_detail", "question": "아쿠아리움 수조 청소하시는 분 직업은?"}
+{"task": "task_detail", "question": "경마장 기수 직업 분류는 어떻게 되나요?"}
+{"task": "task_detail", "question": "가축 돌보시는 분 직업은 뭐라고 하나요?"}
+{"task": "task_detail", "question": "경륜 선수 직업 코드 궁금합니다."}
+{"task": "task_detail", "question": "프로 바둑 기사 직업 분류는?"}
+{"task": "task_detail", "question": "바둑 학원 원장님 직업은요?"}
+{"task": "task_detail", "question": "만화방 알바생 직업 코드요."}
+{"task": "task_detail", "question": "만화 카페 운영하시는 사장님은?"}
+{"task": "task_detail", "question": "코인 노래방 관리인 직업 분류는?"}
+{"task": "task_detail", "question": "무인 편의점 물건 채우는 관리 직원은?"}
+{"task": "task_detail", "question": "공유 오피스 매니저 직업 코드요."}
+{"task": "task_detail", "question": "에어비앤비 청소 대행하시는 분 직업은?"}
+{"task": "task_detail", "question": "게스트하우스 사장님 직업 분류는?"}
+{"task": "task_detail", "question": "캠핑장 관리하시는 분 직업 코드요."}
+{"task": "task_detail", "question": "글램핑장 시설 보수하시는 분은요?"}
+{"task": "task_detail", "question": "여행 가이드 프리랜서 직업은?"}
+{"task": "task_detail", "question": "관광 버스 기사님 직업 분류는?"}
+{"task": "task_detail", "question": "셔틀 기사님인데 차는 본인 소유면요?"}
+{"task": "task_detail", "question": "전세 버스 운행하시는 분 직업 코드요."}
+{"task": "task_detail", "question": "화물차 차주이면서 직접 운전하시면요?"}
+{"task": "task_detail", "question": "탁송 기사님 직업 분류 궁금합니다."}
+{"task": "task_detail", "question": "중고차 매매 단지 딜러 직업은?"}
+{"task": "task_detail", "question": "폐차장에서 부품 분해하시는 분 직업은?"}
+{"task": "task_detail", "question": "자동차 튜닝 샵 운영하시는 분 직업은?"}
+{"task": "task_detail", "question": "세차장 부지 임대해주시는 분 직업은?"}
+{"task": "military", "question": "상근예비역으로 근무 중인데 직업 분류는 어떻게 되나요?"}
+{"task": "military", "question": "장교로 임관할 예정인데 직업코드를 미리 바꿔야 하나요?"}
+{"task": "military", "question": "군대에서 행정병으로 근무하는 사병은 직업이 뭔가요?"}
+{"task": "military", "question": "공군 취사병인데 일반 사병이랑 똑같이 적용하면 되나요?"}
+{"task": "military", "question": "직업군인인데 곧 전역 예정이면 직업을 학생으로 하나요?"}
+{"task": "military", "question": "의무소방원은 직업군인인가요 아니면 사병인가요?"}
+{"task": "military", "question": "사회복무요원 근무지가 구청이면 직업을 뭘로 하나요?"}
+{"task": "military", "question": "ROTC 후보생인데 현재 대학생이면 어떻게 분류하죠?"}
+{"task": "military", "question": "해군 복무 중인 사병은 상해급수가 어떻게 되나요?"}
+{"task": "military", "question": "특전사에서 복무하는 부사관인데 상해급수 궁금합니다."}
+{"task": "military", "question": "일반병으로 입대해서 운전병 보직을 받았는데 직업이 달라지나요?"}
+{"task": "military", "question": "군의관으로 복무 중이면 의사로 해야 하나요 군인으로 하나요?"}
+{"task": "military", "question": "의무경찰로 복무 중인 경우 직업 적용 기준이 뭔가요?"}
+{"task": "military", "question": "방위산업체에서 근무 중인 산업기능요원은 직업을 뭐라고 하나요?"}
+{"task": "military", "question": "육군 하사로 임관했는데 초급 간부 직업코드가 따로 있나요?"}
+{"task": "military", "question": "직업군인인데 위험한 훈련을 많이 하면 급수가 올라가나요?"}
+{"task": "military", "question": "해병대 수색대 사병은 일반 군인이랑 다르게 적용하나요?"}
+{"task": "military", "question": "군무원으로 일하고 있는데 이건 직업군인으로 분류되나요?"}
+{"task": "military", "question": "대체복무로 예술체육요원 활동 중인데 직업을 뭘로 하죠?"}
+{"task": "military", "question": "정년퇴직한 군인은 직업을 무직으로 해야 하나요?"}
+{"task": "military", "question": "공익근무요원으로 복무 중인데 직업 분류 부탁드려요."}
+{"task": "military", "question": "카투사로 군복무 중인데 일반 사병이랑 동일한가요?"}
+{"task": "military", "question": "군대 안에서 전산 업무만 하는 장교는 직업이 뭔가요?"}
+{"task": "military", "question": "전문하사로 전환해서 복무 중인데 직업코드가 바뀌나요?"}
+{"task": "military", "question": "법무관으로 군복무 중인데 변호사로 해야 할지 군인으로 해야 할지 고민입니다."}
+{"task": "military", "question": "항공기 정비하는 직업군인은 급수가 어떻게 되나요?"}
+{"task": "military", "question": "경찰대학생인데 병역의무 중이면 직업을 뭘로 하나요?"}
+{"task": "military", "question": "공중보건의로 보건소에서 일하고 있는데 직업이 군인인가요?"}
+{"task": "military", "question": "군대에서 헬기 조종하는 장교는 직업 분류가 어떻게 되죠?"}
+{"task": "military", "question": "육사 생도는 학생인가요 아니면 군인으로 넣어야 하나요?"}
+{"task": "military", "question": "국군체육부대 소속 선수는 직업을 운동선수로 하나요?"}
+{"task": "military", "question": "폭발물 처리반(EOD) 군인은 직업코드가 따로 있나요?"}
+{"task": "military", "question": "독도경비대에서 복무 중인 의경은 어떻게 적용하나요?"}
+{"task": "military", "question": "직업군인인데 내근 행정직으로만 근무하면 급수가 어떻게 되나요?"}
+{"task": "military", "question": "학군단 후보생이 졸업 후 임관하면 직업 변경 신청을 바로 해야 하나요?"}
+{"task": "military", "question": "군대에서 간호장교로 일하고 있으면 직업이 뭔가요?"}
+{"task": "military", "question": "승선근무예비역으로 배를 타고 있는데 직업 분류가 궁금합니다."}
+{"task": "military", "question": "국방연구소에서 일하는 군인 신분 연구원은 직업이 뭐죠?"}
+{"task": "military", "question": "군 입대 대기 중인 상태에서는 직업을 학생으로 유지해도 되나요?"}
+{"task": "role_mix", "question": "인테리어 업체 대표인데 가끔 직접 현장 시공 보조도 합니다."}
+{"task": "role_mix", "question": "병원 원무과 직원인데 응급 상황 시 구급차 운전도 도와요."}
+{"task": "role_mix", "question": "IT 엔지니어인데 서버실 장비 설치랑 케이블 작업도 직접 합니다."}
+{"task": "role_mix", "question": "학원 원장인데 셔틀버스 기사님 부재 시 대신 운전합니다."}
+{"task": "role_mix", "question": "환경미화 관리직인데 인원 부족할 때 직접 쓰레기 수거도 나가요."}
+{"task": "role_mix", "question": "농장 관리인인데 사무 업무랑 트랙터 운전을 병행하고 있어요."}
+{"task": "role_mix", "question": "조경 회사 사무직인데 나무 심는 현장에 주 1회 정도 지원 나갑니다."}
+{"task": "role_mix", "question": "카페 사장인데 원두 배송이랑 무거운 식자재 운반도 직접 다 해요."}
+{"task": "role_mix", "question": "물류센터 사무직인데 물량 많으면 창고에서 상하차 업무도 같이 합니다."}
+{"task": "role_mix", "question": "토목 설계직인데 현장 실측을 위해 일주일에 세 번은 공사장에 가요."}
+{"task": "role_mix", "question": "이벤트 업체 기획자인데 행사 당일에는 무대 설치도 직접 돕습니다."}
+{"task": "role_mix", "question": "자동차 공업소 경리인데 가끔 차량 이동이나 정비 보조 업무를 해요."}
+{"task": "role_mix", "question": "골프장 관리직인데 코스 관리랑 카트 수리 업무를 같이 합니다."}
+{"task": "role_mix", "question": "출판사 사무직인데 파손 도서 회수하러 1톤 트럭 운전 가끔 해요."}
+{"task": "role_mix", "question": "주유소 관리인인데 바쁜 시간에는 주유 업무도 직접 합니다."}
+{"task": "role_mix", "question": "의류 도매업 대표인데 직접 물건 나르고 오토바이 배달도 해요."}
+{"task": "role_mix", "question": "전기 안전 관리직인데 주로 사무실에 있지만 점검 시 사다리 작업도 합니다."}
+{"task": "role_mix", "question": "수산물 유통 업체 사무원인데 냉동고 입고 작업 시 상하차를 도와요."}
+{"task": "role_mix", "question": "애견 미용실 사장인데 미용 업무랑 용품 배달 운전을 병행합니다."}
+{"task": "role_mix", "question": "아파트 관리소장인데 단지 내 간단한 수리나 전기 보수도 직접 해요."}
+{"task": "role_mix", "question": "광고 대행사 직원인데 옥외 광고물 설치 현장 감독을 자주 나갑니다."}
+{"task": "role_mix", "question": "폐기물 처리 업체 사무직인데 가끔 현장에서 폐기물 분류 작업도 해요."}
+{"task": "role_mix", "question": "가구 전시장 판매원인데 배송 보조랑 설치 업무도 같이 나가요."}
+{"task": "role_mix", "question": "헬스장 관장인데 운동 기구 수리랑 센터 청소 업무도 직접 합니다."}
+{"task": "role_mix", "question": "선박 수리 업체 경리인데 현장에 부품 전달하러 자주 들어갑니다."}
+{"task": "role_mix", "question": "연구소 연구원인데 외부 실험 현장에서 장비 조작 업무가 많아요."}
+{"task": "role_mix", "question": "에어컨 판매 대리점 사장인데 직접 설치 기사로도 현장 뜁니다."}
+{"task": "role_mix", "question": "호텔 지배인인데 객실 청소 인력이 부족하면 직접 청소도 도와요."}
+{"task": "role_mix", "question": "세탁소 사장인데 세탁물 수거랑 배달 운전을 매일 직접 합니다."}
+{"task": "role_mix", "question": "숲 해설가인데 산책로 정비나 가끔 벌목 작업도 지원해요."}
+{"task": "role_mix", "question": "방역 업체 팀장인데 사무실 업무랑 실제 방역 소독 업무를 병행해요."}
+{"task": "role_mix", "question": "철강 회사 사무직인데 공장 내 지게차 운전 교육을 받고 가끔 운행합니다."}
+{"task": "role_mix", "question": "통신사 영업직인데 직접 전신주에 올라가서 점검하는 일도 있나요?"}
+{"task": "role_mix", "question": "식품 공장 품질 관리자인데 생산 라인에 투입되어 포장도 같이 해요."}
+{"task": "role_mix", "question": "경비 업체 관리직인데 순찰 돌다 비상 상황 시 현장 대응도 합니다."}
+{"task": "role_mix", "question": "청소 대행업체 대표인데 대형 현장은 직접 나가서 작업을 지휘해요."}
+{"task": "role_mix", "question": "화원 사장인데 꽃 배달용 화물차를 매일 직접 운전하고 있습니다."}
+{"task": "role_mix", "question": "기계 부품사 사무직인데 납기 급하면 직접 기계 돌리는 일도 해요."}
+{"task": "role_mix", "question": "공연 기획자인데 무대 세트장 철거랑 장비 운반도 직접 돕습니다."}
+{"task": "role_mix", "question": "동물병원 간호사인데 행정 업무랑 진료 보조를 같이 하고 있어요."}
+{"task": "role_mix", "question": "사진 작가인데 스튜디오 촬영이랑 야외 세트 설치도 직접 합니다."}
+{"task": "role_mix", "question": "방송국 PD인데 촬영 현장에서 무거운 장비 나르는 일도 잦아요."}
+{"task": "role_mix", "question": "제면소 사장인데 국수 제조랑 거래처 납품 운전을 직접 해요."}
+{"task": "role_mix", "question": "양계장 주인이면서 달걀 수거랑 배송용 트럭도 직접 운전합니다."}
+{"task": "role_mix", "question": "엘리베이터 점검 업체 사무직인데 점검 보조로 현장에 동행합니다."}
+{"task": "role_mix", "question": "정수기 코디네이터 관리직인데 가끔 직접 필터 교체도 다니나요?"}
+{"task": "role_mix", "question": "신문사 지국장인데 배달원 안 나오면 직접 오토바이 배달 나갑니다."}
+{"task": "role_mix", "question": "인테리어 소품샵 사장인데 가구 조립이랑 배송 업무도 직접 해요."}
+{"task": "role_mix", "question": "학교 행정실 직원인데 학교 시설물 간단한 보수 작업도 같이 합니다."}
+{"task": "role_mix", "question": "렌터카 업체 직원인데 차량 세차랑 탁송 업무를 병행하고 있어요."}
+{"task": "role_mix", "question": "주방 가구 대리점 대표인데 직접 현장 실측이랑 시공도 나갑니다."}
+{"task": "role_mix", "question": "하수도 준설 업체 사무직인데 현장 안전 관리자로 자주 상주해요."}
+{"task": "role_mix", "question": "가전제품 매장 관리직인데 직접 고객 집 방문해서 설치해 줍니다."}
+{"task": "role_mix", "question": "퀵서비스 업체 실장인데 오더 밀리면 직접 오토바이 배달도 나가요."}
+{"task": "role_mix", "question": "목재소 사무직인데 지게차로 나무 옮기는 작업도 매일 조금씩 해요."}
+{"task": "role_mix", "question": "골동품 매매업 사장인데 물건 매입하러 직접 트럭 몰고 다닙니다."}
+{"task": "role_mix", "question": "조명 전시장 직원인데 천장 전등 교체 작업도 직접 하고 있어요."}
+{"task": "role_mix", "question": "화물 알선 사무소 소장인데 가끔 직접 화물차 운행도 나갑니다."}
+{"task": "role_mix", "question": "도시가스 점검원인데 검침 업무랑 간단한 밸브 수리도 병행해요."}
+{"task": "role_mix", "question": "조경 관리 업체 대표인데 직접 가지치기랑 방제 작업을 합니다."}
+{"task": "role_mix", "question": "주류 도매업 사무원인데 가끔 창고에서 맥주 상자 하차도 도와줘요."}
+{"task": "role_mix", "question": "소방 점검 업체 사무직인데 고층 빌딩 소방 시설 점검도 나갑니다."}
+{"task": "role_mix", "question": "건축 설계사인데 공사 현장 감리를 위해 현장에 상주하는 경우는요?"}
+{"task": "income/status", "question": "대학원 박사과정생인데 연구수당만 받고 있습니다. 직업을 어떻게 넣어야 하나요?"}
+{"task": "income/status", "question": "전업주부인데 남편과 사별하고 혼자 계신 어르신은 주부로 등록 가능한가요?"}
+{"task": "income/status", "question": "사이버대학교 다니면서 직장 준비 중인데 학생인가요 무직인가요?"}
+{"task": "income/status", "question": "군 입대 대기 중인 고등학교 졸업생은 직업을 무엇으로 선택합니까?"}
+{"task": "income/status", "question": "직업 학교에서 바리스타 교육받는 중인데 학생으로 분류되나요?"}
+{"task": "income/status", "question": "요양원에서 생활하시는 고령의 어르신은 무직으로 처리하면 되나요?"}
+{"task": "income/status", "question": "사회복지시설에서 보호받으며 자활 근로 중인 경우는 직업이 뭔가요?"}
+{"task": "income/status", "question": "집에서 손주를 돌봐주며 용돈을 받는 할머니는 주부인가요?"}
+{"task": "income/status", "question": "국가고시 합격 후 임용 대기 중인 상태는 무직인가요 공무원인가요?"}
+{"task": "income/status", "question": "해외에서 유학 중인 대학생이 방학 때 잠시 입국했는데 학생으로 넣나요?"}
+{"task": "income/status", "question": "특별한 직업 없이 상가 건물 월세로만 생활하는 임대업자는 어떻게 하나요?"}
+{"task": "income/status", "question": "육아휴직 중인 남성이 가사를 전담하고 있다면 주부로 입력해도 되나요?"}
+{"task": "income/status", "question": "종교단체에서 숙식만 제공받으며 봉사하는 사람은 무직으로 분류하나요?"}
+{"task": "income/status", "question": "대학교 휴학하고 편입 준비 중인 수험생은 학생인가요 무직인가요?"}
+{"task": "income/status", "question": "운동선수 은퇴하고 현재는 아무 활동도 안 하는 상태입니다."}
+{"task": "income/status", "question": "예술인 등록은 되어있으나 수입이 전혀 없는 무명 작가는 무직인가요?"}
+{"task": "income/status", "question": "외국인 등록번호는 있는데 아직 취업을 못 한 외국인은 어떻게 하나요?"}
+{"task": "income/status", "question": "기초생활수급자로 정부 보조금만 받는 분의 직업 코드가 궁금합니다."}
+{"task": "income/status", "question": "취업 준비하며 부모님 가게 일을 무보수로 돕는 경우 직업이 뭔가요?"}
+{"task": "income/status", "question": "정년퇴직 후 실업급여를 받고 있는 상태인데 무직으로 넣어야 하나요?"}
+{"task": "income/status", "question": "유튜버를 꿈꾸며 영상 편집 공부 중인 무직자는 어떻게 분류하나요?"}
+{"task": "income/status", "question": "내일배움카드로 학원에서 직업 훈련 중인 실업자 직업 코드 알려주세요."}
+{"task": "income/status", "question": "희귀질환으로 경제 활동이 아예 불가능한 성인은 무직이 맞나요?"}
+{"task": "income/status", "question": "가사도우미로 부정기적으로 일하는 분은 주부인가요 무직인가요?"}
+{"task": "income/status", "question": "명예퇴직 후 재취업 준비 중인 50대 남성은 무직으로 넣나요?"}
+{"task": "income/status", "question": "폴리텍 대학에서 기술 교육받는 성인 교육생은 학생으로 보나요?"}
+{"task": "income/status", "question": "별다른 소득 없이 배우자 명의의 재산으로 생활하는 남편은 주부인가요?"}
+{"task": "income/status", "question": "고등학교 자퇴하고 검정고시 준비하는 청소년은 학생인가요?"}
+{"task": "income/status", "question": "종갓집 살림을 전담하며 제사 등을 챙기는 분은 주부로 넣으면 되나요?"}
+{"task": "income/status", "question": "소액의 주식 배당금으로만 생활하는 은퇴자는 무직인가요?"}
+{"task": "income/status", "question": "교도소 출소 후 사회 적응 훈련 중인 사람의 직업 분류가 궁금합니다."}
+{"task": "income/status", "question": "방송통신대학교 다니며 낮에는 아르바이트 구하는 중이면 학생인가요?"}
+{"task": "income/status", "question": "자원봉사 센터에서 매일 봉사하지만 급여는 안 받는 경우의 직업은요?"}
+{"task": "income/status", "question": "산후조리원에서 조리 중인 산모는 직업을 주부로 유지하면 되나요?"}
+{"task": "income/status", "question": "해외 이민 준비하며 직장을 그만둔 상태일 때는 무직인가요?"}
+{"task": "income/status", "question": "전문대학원 입학 예정인 합격생은 직업을 무엇으로 해야 하나요?"}

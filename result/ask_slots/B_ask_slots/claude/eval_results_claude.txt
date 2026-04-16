@@ -1,0 +1,22 @@
+===== SUMMARY =====
+total: 387
+ask_followup rate (recall): 92/387 = 0.238
+slot accuracy (overall):    64/387 = 0.165
+slot accuracy | ask_followup: 64/92 = 0.696
+
+per-task:
+task               n    ask%   slot%
+income/status     36   19.4%    8.3%
+military          39   61.5%   59.0%
+multi_job         48   56.2%   35.4%
+role_mix          63   23.8%   14.3%
+task_detail      136    9.6%    6.6%
+transport_mode    65    9.2%    4.6%
+
+confusion (gold_task -> predicted_slot when ask_followup):
+  income/status: income/status=3, military=2, task_detail=2
+  military: military=23, task_detail=1
+  multi_job: multi_job=17, task_detail=8, transport_mode=1, role_mix=1
+  role_mix: role_mix=9, task_detail=3, transport_mode=2, multi_job=1
+  task_detail: task_detail=9, military=2, income/status=1, transport_mode=1
+  transport_mode: transport_mode=3, task_detail=2, role_mix=1
