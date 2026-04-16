@@ -15,8 +15,9 @@
   <thead>
     <tr>
       <th>테스크</th>
-      <th>실험셋</th>
-      <th>설명</th>
+      <th>폴더명</th>
+      <th>실험 설명</th>
+      <th>점수</th>
     </tr>
   </thead>
   <tbody>
@@ -24,27 +25,33 @@
       <td rowspan="2"><code>ask_slots</code></td>
       <td><code>A_ask_slots</code></td>
       <td>본사 데이터</td>
+      <td>0</td>
     </tr>
     <tr>
       <td><code>B_ask_slots</code></td>
       <td>본사 데이터 few-shot 기반 유사 데이터 생성</td>
+      <td>0</td>
     </tr>
     <tr>
       <td rowspan="4"><code>classify_now</code></td>
       <td><code>A_job_classify_now</code></td>
       <td>본사 데이터</td>
+      <td>0</td>
     </tr>
     <tr>
       <td><code>B_job_classify_now</code></td>
       <td>직업코드 설명을 기반으로 데이터 생성</td>
+      <td>0</td>
     </tr>
     <tr>
       <td><code>C_job_classify_now</code></td>
       <td>직업코드 설명을 기반으로 복수직업 데이터 생성</td>
+      <td>0</td>
     </tr>
     <tr>
       <td><code>D_job_classify_now</code></td>
       <td>본사 데이터 few-shot 기반 유사 데이터 생성</td>
+      <td>0</td>
     </tr>
   </tbody>
 </table>
