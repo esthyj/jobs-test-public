@@ -10,7 +10,7 @@
 
 Task는 2가지입니다.
 
-1. `ask_slots`
+### 1. `ask_slots`
 
 직업 분류 전에 추가 질문이 필요한 케이스를 골라내고, 상황에 맞는 추가 질의 slot을 제시합니다.
 
@@ -23,7 +23,7 @@ ex) 본사 데이터 예시 (직업 분류 전 추가 질문이 필요한 경우
 
 - slot 종류: `transport_mode`, `multi_job`, `task_detail`, `military`, `role_mix`, `income/status`
 
-2. `classify_now`
+###  2. `classify_now`
 
 고객이 자연어로 설명한 직업/상황을 보고 적절한 `job_code`를 바로 분류하는 성능을 평가합니다.
 
